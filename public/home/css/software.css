@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.software-l {
+    width: 780px;
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.software-l ul{
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.software-l ul .web{
+    overflow: hidden;
+}
+
+.software-l ul li h2 {
+    font-size: 18px;
+}
+
+.software-l ul li a {
+    display: block;
+    padding: 10px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.software-r {
+    width: 380px;
+    height: 400px;
+    background: #fff;
+}

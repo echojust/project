@@ -1,0 +1,68 @@
+<include file="header/index"/>
+
+<div class="right-content-container">
+
+    <a href="__MODULE__/Category/createCategory" class="add-button">+ 添加分类</a>
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>分类</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <include file="footer/index"/>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "__MODULE__/Category/listCategory",
+                data: "",
+                dataType: "text",
+                type: "get",
+                success: function ( msg ) {
+                    $("tbody").html(msg);
+                }
+            })
+
+            $("tbody").on("click", ".delete", function () {
+
+                if ( ! confirm("确认删除吗") ) {
+                    return false;
+                }
+
+                var id = $(this).attr("data-id");
+
+                $.ajax({
+                    url: "__MODULE__/Category/deleteCategory/id/" + id,
+                    data: "",
+                    dataType: "text",
+                    type: "get",
+                    success: function ( msg ) {
+                        if ( msg == 1 ) {
+                            alert("请先清空子分类");
+                            return false;
+                        }
+
+                        if ( msg == 2 ) {
+                            alert("删除失败");
+                            return false;
+                        }
+
+                        alert("删除成功");
+                        $("tbody").html(msg);
+                    }
+                });
+            });
+        })
+    </script>
+
+
+
+
+

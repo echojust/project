@@ -1,0 +1,33 @@
+<include file="header/index"/>
+
+            <div class="subnav-container pt10">
+                <a href="#" class="active">Apache</a>
+                <a href="#">Nginx</a>
+                <a href="#">Linux</a>
+                <a href="#">PHP</a>
+            </div>
+            <div class="listbox oh">
+                <ul>
+                    <foreach name="blogs" item="vo">
+                        <li>
+                            <h4><a href="__MODULE__/hd/detail">{$vo.title}</a></h4>
+                            <p class="list-summary">简介</p>
+                            <div class="list-other">发布时间：{$vo.create_time}</div>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+
+            <div class="page-container">
+                <a href="#">上一页</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">下一页</a>
+            </div>
+        </div>
+        <!-- content - e -->
+
+<include file="footer/index"/>

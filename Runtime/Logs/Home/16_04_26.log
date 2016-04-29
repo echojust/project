@@ -1,0 +1,6 @@
+[ 2016-04-26T17:48:32+08:00 ] 127.0.0.1 /index.php/indexCategory/id/74.html
+ERR: 无法加载控制器:IndexCategory
+
+[ 2016-04-26T18:06:34+08:00 ] 127.0.0.1 /index.php/indexCategory/id/id.html
+ERR: 无法加载控制器:IndexCategory
+

@@ -1,0 +1,33 @@
+<include file="header/index"/>
+
+<div class="right-content-container">
+    <ul class="home_ul">
+        <li><a href="#">总共分类<br>暂无数据</a></li>
+        <li><a href="#">所有博文<br>暂无数据</a></li>
+        <li><a href="#">网站评论<br>暂无数据</a></li>
+        <li><a href="#">网站评论<br>暂无数据</a></li>
+        <li><a href="#">总共访问<br>暂无数据</a></li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">系统基本信息</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>管理员</td>
+                <td>{$Think.session.usernameBlog}</td>
+            </tr>
+            <tr>
+                <td>ip地址</td>
+                <td>{$ip}</td>
+            </tr>
+            <tr>
+                <td>登录时间</td>
+                <td>{$loginTime}</td>
+            </tr>
+        </tbody>
+    </table>
+
+<include file="footer/index" />

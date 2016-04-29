@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.subnav-container{
+	height: 30px;
+	font-size: 14px;
+	border-bottom: 2px solid #ccc;
+}
+.subnav-container a{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	display: inline-block;
+	margin-right: 50px;
+	color: #333;
+	border-bottom: 2px solid #ccc;
+	padding: 0 10px;
+}
+.subnav-container a.active{
+	color: #eb2525;
+	border-bottom: 2px solid #eb2525;
+}
+
+.listbox ul li{
+	padding: 10px;
+	background: #fff;
+	overflow: hidden;
+	margin: 10px 0;
+	border: 1px solid #fff;
+	-webkit-transition: 0.8s border;
+	-moz-transition: 0.8s border;
+	-o-transition: 0.8s border;
+	-ms-transition: 0.8s border;
+	transition: 0.8s border;
+	border-radius: 3px;
+}
+.listbox ul li:hover{
+	border: 1px solid #eb2525;
+}
+.listbox ul li h4{
+	overflow: hidden;
+}
+.listbox ul li h4 a{
+	font-size: 14px;
+	color: #105cb6;
+}
+.listbox ul li h4 a:hover{
+	text-decoration: underline;
+}
+.listbox .list-summary{
+	color: #333;
+	font-size: 12px;
+	overflow: hidden;
+	line-height: 20px;
+	padding: 7px 0;
+}
+.listbox .list-other{
+	color: #666;
+	font-size: 12px;
+}
+
+/*详情页*/
+.skill-detail-container{
+	background: #fff;
+	padding: 10px;
+}
+.crumbs-nav{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.crumbs-nav a{
+	font-size: 14px;
+	color: #666;
+}
+.crumbs-nav a:hover{
+	text-decoration: underline;
+}
+.concrete-content{
+	font-size: 14px;
+	color: #333;
+}

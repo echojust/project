@@ -1,0 +1,280 @@
+@charset "UTF-8";
+/*头部*/
+.head-wrapper {
+    background: url(../img/head/headbg.jpg) repeat;
+    border-bottom: 2px solid #eb2525;
+}
+
+.head-container {
+    height: 150px;
+}
+
+.head-container-top-box {
+    padding-top: 18px;
+    height: 42px;
+}
+
+.head-container-top-box h1 {
+    width: 170px;
+    height: 42px;
+    overflow: hidden;
+    float: left;
+}
+
+.head-container-top-box h1 a {
+    overflow: hidden;
+    display: block;
+}
+
+.head-container-top-box h1 a img {
+    float: left;
+}
+
+.head-container-bottom-box {
+    height: 90px;
+}
+
+.head-nav {
+    float: left;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.head-nav a {
+    display: inline-block;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    padding-right: 40px;
+    -webkit-transition: 0.5s color;
+    -moz-transition: 0.5s color;
+    -o-transition: 0.5s color;
+    -ms-transition: 0.5s color;
+    transition: 0.5s color;
+}
+
+.head-nav a.current {
+    color: #eb2525;
+}
+
+.head-nav-r {
+    float: right;
+    margin-top: 45px;
+}
+
+.head-nav-r a {
+    height: 30px;
+    line-height: 30px;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    color: #999;
+    padding-left: 20px;
+    -webkit-transition: 0.5s color;
+    -moz-transition: 0.5s color;
+    -o-transition: 0.5s color;
+    -ms-transition: 0.5s color;
+    transition: 0.5s color;
+}
+
+.head-nav-r a:hover {
+    color: #fff;
+}
+
+.search-panel {
+    height: 30px;
+    float: left;
+    border: 1px solid #666;
+    position: relative;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.search-panel ol {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 31px;
+    border-radius: 0 0 3px 3px;
+    display: none;
+}
+
+.search-panel ol li {
+    overflow: hidden;
+    padding: 7px 5px;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: 0.5s color, 0.5s background;
+    -moz-transition: 0.5s color, 0.5s background;
+    -o-transition: 0.5s color, 0.5s background;
+    -ms-transition: 0.5s color, 0.5s background;
+    transition: 0.5s color, 0.5s background;
+    cursor: pointer;
+}
+
+.search-panel ol li:hover {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.search-panel input {
+    font-size: 12px;
+    color: #ccc;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.search-panel .search-text {
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px;
+    background: transparent;
+    float: left;
+}
+
+.search-panel .search-button {
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    color: #666;
+    background: transparent;
+    float: left;
+    -webkit-transition: 0.5s color;
+    -moz-transition: 0.5s color;
+    -o-transition: 0.5s color;
+    -ms-transition: 0.5s color;
+    transition: 0.5s color;
+}
+
+.search-panel .search-button:hover {
+    color: #fff;
+}
+
+/*页脚*/
+.foot-container {
+    height: 100px;
+    line-height: 100px;
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
+
+.foot-wrapper {
+    background: #242424;
+}
+
+/*头部、页脚共用*/
+.head-wrapper, .foot-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.head-container, .foot-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*中间*/
+.content-wrapper {
+    width: 1200px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+/*页码*/
+.page-container {
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.page-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #666;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid #666;
+    -webkit-transition: 0.5s color, 0.8s background;
+    -moz-transition: 0.5s color, 0.8s background;
+    -o-transition: 0.5s color, 0.8s background;
+    -ms-transition: 0.5s color, 0.8s background;
+    transition: 0.5s color, 0.8s background;
+}
+
+.page-container a:hover {
+    background: #666;
+    color: #fff;
+}
+
+/*表格*/
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid #999;
+    color: #333;
+    overflow: hidden;
+}
+
+table thead {
+    background: #ccc;
+    overflow: hidden;
+}
+
+table tbody, table thead {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    overflow: hidden;
+}
+
+table tbody tr, table thead tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    overflow: hidden;
+}
+
+table tbody tr td, table thead tr th {
+    padding: 10px;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden;
+}
+
+table tbody tr td dl {
+    overflow: hidden;
+}
+
+table tbody tr td dl dt {
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+table tbody tr td dl .picture {
+    width: 300px;
+    height: 150px;
+    line-height: 150px;
+    border: 1px solid #ccc;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+table tbody tr td dl .picture div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+

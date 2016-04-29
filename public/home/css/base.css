@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*样式重置*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f0f0f0;
+    font-family: "宋体", "微软雅黑", Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+    border: 0;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    blr: expression(this.onFocus=this.blur());
+}
+
+a:focus {
+    outline: none;
+}
+
+a.hidefocus {
+    outline: none
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.oh {
+    overflow: hidden;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mr0{
+    margin-right: 0;
+}
+
+.bgfff {
+    background: #fff;
+}
+
+.fs12 {
+    font-size: 12px;
+}

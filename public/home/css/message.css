@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*站长信息*/
+.station-master{
+	width: 700px;
+}
+.basic-info{
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.basic-info .head-portrait{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 30px;
+}
+.basic-info .head-portrait img{
+	width: 100px;
+	height: 100px;
+}
+.basic-info .person-info{
+	color: #333;
+}
+.basic-info .person-info ul li{
+	height: 22px;
+	line-height: 22px;
+}
+.basic-info .person-info ul li span{
+	display: inline-block;
+	float: left;
+	width: 70px;
+}
+.basic-info h3{
+	font-size: 14px;
+	color: #eb2525;
+}
+.basic-info .contact li{
+	height: 22px;
+	line-height: 22px;
+}
+.basic-info .contact li span{
+	width: 70px;
+	float: left;
+	display: inline-block;
+}
+.basic-info .explain{
+	line-height: 25px;
+	text-indent: 2em;
+}
+
+/*留言*/
+.message-container{
+	width: 460px;
+	padding: 10px;
+}
+.message-box textarea{
+	width: 448px;
+	display: block;
+	height: 100px;
+	border: 1px solid #ccc;
+	resize: none;
+	overflow: hidden;
+	padding: 5px;
+}
+.message-box textarea:focus{
+    outline: #e9433d solid 1px;
+}
+.message-box input{
+	width: 100px;
+	height: 30px;
+	background: #eb2525;
+	display: block;
+	float: right;
+	cursor: pointer;
+	color: #fff;
+	-webkit-transition: 0.5s background;
+	-moz-transition: 0.5s background;
+	-o-transition: 0.5s background;
+	-ms-transition: 0.5s background;
+	transition: 0.5s background;
+	border-radius: 3px;
+}
+.message-box input:hover{
+	background: #fa6969;
+}
+.message-box span{
+	display: inline-block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	color: #333;
+}
+.message-list{
+	padding-top: 30px;
+}
+.message-list ul li{
+	overflow: hidden;
+	border-bottom: 1px dashed #ccc;
+	padding: 25px 0 0;
+}
+.message-list ul li div{
+	overflow: hidden;
+}
+.message-list ul li div span{
+	overflow: hidden;
+	color: #ea8914;
+	float: left;
+}
+.message-list ul li div em{
+	overflow: hidden;
+	color: #666;
+	float: right;
+	font-style: normal;
+}
+.message-list ul li p{
+	overflow: hidden;
+	line-height: 20px;
+	color: #111;
+	text-indent: 2em;
+	padding: 10px 0;
+}
+.message-list .loading-more{
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+	margin: 10px auto;
+	padding: 0 10px;
+	cursor: pointer;
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}

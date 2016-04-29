@@ -1,0 +1,60 @@
+[ 2016-04-24T08:42:37+08:00 ] 127.0.0.1 /index.php?c=f/Message&a=index
+ERR: 无法加载控制器:F/Message
+
+[ 2016-04-24T08:43:07+08:00 ] 127.0.0.1 /index.php?c=f/Hd&a=index
+ERR: 无法加载控制器:F/Hd
+
+[ 2016-04-24T08:43:10+08:00 ] 127.0.0.1 /index.php?c=f/Message&a=index
+ERR: 无法加载控制器:F/Message
+
+[ 2016-04-24T08:44:36+08:00 ] 127.0.0.1 /index.php/Home/Index/index.php?c=f/Index&a=index
+ERR: 非法操作:index.php
+
+[ 2016-04-24T08:45:22+08:00 ] 127.0.0.1 /index.php/Home/Index/message
+ERR: 非法操作:message
+
+[ 2016-04-24T08:47:01+08:00 ] 127.0.0.1 /index.php/Home/message/index.php?c=f/Index&a=index
+ERR: 非法操作:index.php
+
+[ 2016-04-24T08:47:46+08:00 ] 127.0.0.1 /index.php/Home/message/index.php?c=f/Message&a=index
+ERR: 非法操作:index.php
+
+[ 2016-04-24T08:48:05+08:00 ] 127.0.0.1 /index.php/Home/message/index.php?c=f/Index&a=index
+ERR: 非法操作:index.php
+
+[ 2016-04-24T08:48:16+08:00 ] 127.0.0.1 /index.php/Home/message/index.php?c=f/Index&a=index
+ERR: 非法操作:index.php
+
+[ 2016-04-24T08:53:06+08:00 ] 127.0.0.1 /index.php?c=f/Index&a=index
+ERR: 无法加载控制器:F/Index
+
+[ 2016-04-24T08:55:00+08:00 ] 127.0.0.1 /index.php/user/login
+ERR: 无法加载控制器:User
+
+[ 2016-04-24T09:04:09+08:00 ] 127.0.0.1 /index.php/main
+ERR: 无法加载控制器:Main
+
+[ 2016-04-24T09:04:12+08:00 ] 127.0.0.1 /index.php/main/index
+ERR: 无法加载控制器:Main
+
+[ 2016-04-24T09:06:21+08:00 ] 127.0.0.1 /index.php/user
+ERR: 无法加载控制器:User
+
+[ 2016-04-24T09:06:25+08:00 ] 127.0.0.1 /index.php/user/index
+ERR: 无法加载控制器:User
+
+[ 2016-04-24T11:23:00+08:00 ] 127.0.0.1 /index.php/Home/index/index.php?c=f/Hd&a=index
+ERR: 非法操作:index.php
+
+[ 2016-04-24T11:24:41+08:00 ] 127.0.0.1 /index.php/Home/hd/index.php?c=f/Detail&a=index
+ERR: 非法操作:index.php
+
+[ 2016-04-24T11:25:50+08:00 ] 127.0.0.1 /index.php/Home/hd/index.php?c=f/Detail&a=index
+ERR: 非法操作:index.php
+
+[ 2016-04-24T11:25:57+08:00 ] 127.0.0.1 /index.php/Home/hd/index.php?c=f/Detail&a=index
+ERR: 非法操作:index.php
+
+[ 2016-04-24T11:26:45+08:00 ] 127.0.0.1 /index.php/Home/hd/index.php?c=f/Index&a=index
+ERR: 非法操作:index.php
+

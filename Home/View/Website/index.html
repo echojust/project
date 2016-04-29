@@ -1,0 +1,108 @@
+<include file="header/index"/>
+
+<table>
+    <thead>
+        <tr>
+            <th width="70">编号</th>
+            <th width="620">网站展示</th>
+            <th>服务功能</th>
+            <th width="70">服务价格</th>
+            <th width="70">附加服务</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>服务1</td>
+            <td>
+                <dl class="fl">
+                    <dt>前台模版</dt>
+                    <dd class="picture">
+                        <img src="__PUBLIC__/home/img/website/q-1.png" width="300">
+                        <div>点击查看大图</div>
+                    </dd>
+                </dl>
+                <dl class="fl">
+                    <dt>管理模版</dt>
+                    <dd class="picture">
+                        <img src="__PUBLIC__/home/img/website/q-2.png" width="300">
+                        <div>点击查看大图</div>
+                    </dd>
+                </dl>
+            </td>
+            <td>
+                <dl class="pt10">
+                    <dt>前台模版功能</dt>
+                    <dd>
+                        首页、关于我们、联系我们、<br>
+                        企业展示、最新公告
+                    </dd>
+                </dl>
+                <dl class="pt10">
+                    <dt>管理模版功能</dt>
+                    <dd>登录、管理内容</dd>
+                </dl>
+            </td>
+            <td>&yen;500.00</td>
+            <td>
+                域名申请<br>
+                空间申请<br>
+                数据库申请<br>
+                H5微站<br>
+                数据采集<br>
+            </td>
+        </tr>
+        <tr>
+            <td>服务1</td>
+            <td>
+                <dl class="fl">
+                    <dt>前台模版</dt>
+                    <dd class="picture">
+                        <img src="__PUBLIC__/home/img/website/q-1.png" width="300">
+                        <div>点击查看大图</div>
+                    </dd>
+                </dl>
+                <dl class="fl">
+                    <dt>管理模版</dt>
+                    <dd class="picture">
+                        <img src="__PUBLIC__/home/img/website/q-2.png" width="300">
+                        <div>点击查看大图</div>
+                    </dd>
+                </dl>
+            </td>
+            <td>
+                <dl class="pt10">
+                    <dt>前台模版功能</dt>
+                    <dd>
+                        首页、关于我们、联系我们、<br>
+                        企业展示、最新公告
+                    </dd>
+                </dl>
+                <dl class="pt10">
+                    <dt>管理模版功能</dt>
+                    <dd>登录、管理内容</dd>
+                </dl>
+            </td>
+            <td>&yen;500.00</td>
+            <td>
+                域名申请<br>
+                空间申请<br>
+                数据库申请<br>
+                H5微站<br>
+                数据采集<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<include file="footer/index"/>
+
+<script>
+    $("table tbody tr:odd").css("background", "#ddd");
+    $("tbody dl .picture").mouseenter(function(){
+        $(this).children("div").fadeIn(300);
+    });
+
+    $("tbody dl .picture").mouseleave(function () {
+        $(this).children("div").fadeOut(300);
+    });
+</script>

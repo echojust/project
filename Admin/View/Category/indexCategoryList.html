@@ -1,0 +1,18 @@
+<volist name="category" id="value">
+    <tr>
+        <td>{$value.id}</td>
+        <td>
+            <if condition="($value.level eq 0)">
+                <span class="firstCate">{$value.name}</span>
+                <else/>
+                <span class="secondCate">{$value.name}</span>
+            </if>
+
+        </td>
+        <td>
+            <a href="__MODULE__/Category/updateCategory/id/{$value.id}/pd/{$value.parent_id}">修改</a>
+            |
+            <span class="delete" data-id="{$value.id}">删除</span>
+        </td>
+    </tr>
+</volist>

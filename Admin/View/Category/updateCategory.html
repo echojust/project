@@ -1,0 +1,50 @@
+<include file="header/index"/>
+
+<div class="right-content-container">
+
+    <form action="__MODULE__/Category/updateCategory/id/{$cates.id}/pd/{$parentId['id']}" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td>分类</td>
+                    <td>
+                        <input type="text" name="name" value="{$cates.name}" class="input fl">
+                        <p class="tip">一篇博客所属的分类，比如：HTML（不能为空）</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>上级分类:</td>
+                    <td>
+                        <select name="parent_id" class="fl h32">
+                            <option value="0">顶级分类</option>
+                            <volist name="category" id="value">
+                                <if condition="($value.id eq $parentId['id'])">
+                                    <option value="{$value.id}" selected>
+                                    <else/>
+                                    <option value="{$value.id}">
+                                </if>
+                                    <if condition="($value.level eq 0)">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                        <else/>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </if>
+                                    {$value.name}
+                                </option>
+                            </volist>
+                        </select>
+                        <p class="tip">一篇博客所属的上级分类，比如：HTML属于前端技术</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>操作</td>
+                    <td>
+                        <input type="submit" name="submit" value="提交" class="submit">
+                        <input type="reset" name="reset" value="重置" class="submit">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <include file="footer/index"/>
+
